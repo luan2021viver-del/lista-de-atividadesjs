@@ -4,8 +4,8 @@ let numeros = [];
 let soma = 0;
 
 for (let i = 0; i < 5; i++) {
-    let entrada = Number(prompt(`Digite o ${i + 1}º número: `));
-    numeros.push(entrada);
+    let entradadenumeros = Number(prompt(`Digite o ${i + 1}º número: `));
+    numeros.push(entradadenumeros);
 }
 
 for (let i = 0; i < numeros.length; i++) {
